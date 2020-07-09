@@ -13,7 +13,7 @@ L'équipe cherche à travailler sur la problématique des déchets. Étant débu
 ## 1) Bras Robotique
 
   ### Modélisation 
-  Vous trouvererez toutes les pièces nécessaires à la modélisation 3D du bras du robot. Toutes les pièces d'assemblage, imprmables en 3D se trouvent ici. 
+  Vous trouvererez toutes les pièces nécessaires à la modélisation 3D du bras du bras robotique. Toutes les pièces imprimables en 3D se trouvent ici. 
   
   ### Contrôle 
   Vous trouverez un PDF excpliquant les recherches effectuées. Les pistes de réflexions, les echecs et les réussites. Le bras n'étant pas encore fonctionnel. Il toujours en pièces détachées, le PDF mentionnera le moment où nous nous sommes arètés. Nous vous donnons des pistes pour la suite.  
