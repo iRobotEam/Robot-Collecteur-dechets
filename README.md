@@ -12,35 +12,35 @@ L'équipe cherche à travailler sur la problématique des déchets. Étant débu
 
 ## 1) Bras Robotique
 
-  ### 1.1 Modélisation 
+  ### Modélisation 
   Vous trouvererez toutes les pièces nécessaires à la modélisation 3D du bras du robot. Toutes les pièces d'assemblage, imprmables en 3D se trouvent ici. 
   
-  ### 1.2 Contrôle 
+  ### Contrôle 
   Vous trouverez un PDF excpliquant les recherches effectuées. Les pistes de réflexions, les echecs et les réussites. Le bras n'étant pas encore fonctionnel. Il toujours en pièces détachées, le PDF mentionnera le moment où nous nous sommes arètés. Nous vous donnons des pistes pour la suite.  
   Vous trouverez aussi la liste du matériel et outils utilisés avec des liens d'accès. 
   
-  ### 1.3 Equipe 
+  ### Equipe 
   Vous trouverez dans ce dossier, la répartition du travail en équipe et notre organisation. 
   
 ## 2) Châssis 
 
-  ### 2.1 Modélisation 
+  ### Modélisation 
   Vous trouvererez toutes les pièces nécessaires à la modélisation 3D du chpassis du robot. Toutes les pièces d'assemblage imprmables en 3D se trouvent ici.
   
-  ### 2.2 Contrôle 
+  ### Contrôle 
   Vous trouverez un PDF excpliquant les recherches effectuées. Les pistes de réflexions, les echecs et les réussites. Le châssis n'étant pas encore fonctionnel. Il toujours en pièces détachées, le PDF mentionnera le moment où nous nous sommes arètés. Nous vous donnons des pistes pour la suite.    
   Vous trouverez aussi la liste du matériel et outils utilisés avec des liens d'accès. 
   
-  ### 2.3 Equipe 
+  ### Equipe 
   Vous trouverez dans ce dossier, la répartition du travail en équipe et notre organisation. 
   
 ## 2) Détection des déchets  
 
-  ### 2.1 Recherches et réflexions 
+  ### Recherches et réflexions 
   Vous trouverez un PDF excpliquant les recherches effectuées. Les pistes de réflexions, les echecs et les réussites
   
-  ### 2.2 Contrôle  
+  ### Contrôle  
   Vous trouverez  la liste du matériel et outils utilisés avec des liens d'accès. Le fonctionnemet technique de l'algorithme utilisé. Et des exemples de codes testés sur nos ordinateurs. 
   
-  ### 2.3 Equipe 
+  ### Equipe 
   Vous trouverez dans ce dossier, la répartition du travail en équipe et notre organisation. 
