@@ -1,12 +1,40 @@
-# Suivit du travail du contrôle des servomoteurs 
+# Suivit du travail sur le contrôle des servomoteurs 
 
-## Liste du matériel utilisé   
+Ce README a pour obectif de présenter le travail technique réalisé sur le contrôle du bras robotique. Le travail est inachevé à cause du confinement du COVID-19. 
+Vous trouverez donc l’historique du travail de la partie électronique du bras. Les parties en suspend seront expliquées afin de pouvoir continuer la réalisation technique à la rentrée de septembre 2020. 
+
+Ce readme ne prend pas en compte la mécanique et l'assemblage des pièces 3D. 
+
 
 ## Première approche : RASPBERRY  
-![alt text](https://s1.qwant.com/thumbr/0x380/9/b/9ab45843981493d822d81040e6e2b2f40f8b16faa10ec4879d738368d87bdc/Raspberry_Pi_logo.jpg?u=http%3A%2F%2Fwww.esa.int%2Fvar%2Fesa%2Fstorage%2Fimages%2Fesa_multimedia%2Fimages%2F2016%2F10%2Fraspberry_pi_logo%2F16166824-1-eng-GB%2FRaspberry_Pi_logo.jpg&q=0&b=1&p=0&a=1){:height="36px" width="36px"}.
+![alt text](https://wiki.zenk-security.com/lib/exe/fetch.php?w=200&media=rpi.png)
+
+Cette approche n’est parvenue à aucun résultat, mais offre des possibilités poussées si les erreurs rencontrées sont surmontées. Cela permettrait notamment d’utiliser une seule et même carte pour contrôler la détection des déchets et les servomoteurs du bras. Raspberry offre notamment l’avantage d’utiliser des API déjà toutes faites par Dynamixel. 
+
+### Liste du matériel utilisé   
+
+* Une raspberry PI 
+* Les [pièces](https://github.com/iRobotEam/Robot-Collecteur-dechets/tree/master/Bras%20Robotique/Modelisation) imprimées en 3D 
+* 3 servomoteurs [XL320](https://emanual.robotis.com/docs/en/dxl/x/xl320/)
+* 3 servomoteurs [XL430-W250](https://emanual.robotis.com/docs/en/dxl/x/xl430-w250/)
+* Un [régulateur de tension](https://www.generationrobots.com/fr/401456-module-convertisseur-de-tension-continue.html) 
+* Des cables / connecteurs 
+* Breadboard 
+* un [SN74LS241N](https://www.digikey.com/product-detail/en/texas-instruments/SN74LS241N/296-14887-5-ND/563034) 
+
+
+
+
+
 ## Deuxième approche : ARDUINO 
+![alt text](https://www.mon-club-elec.fr/mes_images/clipart/ArduinoLogo.gif)
+
+
+
 
 ## Troisième approche DYNAMIXEL 
+
+![alt text](https://tribotix.com/wp-content/uploads/2018/10/Robotis_2.png)
 
 
 
