@@ -1,5 +1,8 @@
 # Robot-Collecteur-dechets
 
+![alt text](https://github.com/iRobotEam/Robot-Collecteur-dechets/blob/master/Dimensions_Robot.png?raw=true)
+
+
 ## Qui est elle ? 
 
 C'est une équipe de 8 étudiants qui travaille sur la conception d’un prototype. Elle comporte des élèves, filles et garçons, en 1ère,2ème et 3ème année de l’école d'ingénieur  ISEN Nantes. L’iRobot’Eam conçoit des prototypes difficilement réalisables à son niveau.  Dans le cadre de ce projet, les étudiants apprennent les bases de la gestion de projet, le travail en équipe et acquièrent beaucoup de nouvelles connaissances techniques ! Ils sortent ainsi de leur zone de confort afin de compléter leur formation. Ils doivent s’organiser pour travailler et donner le meilleur de leurs capacités car ce projet se réalise en dehors des heures de cours. Avec une séance en commun tous les jeudis de 13h à 15h.
