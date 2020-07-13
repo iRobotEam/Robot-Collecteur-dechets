@@ -1,4 +1,4 @@
-# Robot-Collecteur-dechets
+# Robot-Collecteur-Dechets
 
 ![alt text](https://github.com/iRobotEam/Robot-Collecteur-dechets/blob/master/Dimensions_Robot.png?raw=true)
 
@@ -50,7 +50,7 @@ L'équipe a travailla sur la problématique des déchets. Elle s'est lancée sur
 
 ## Remerciements aux sponsors
 
-Ce projet étudiant n’aurait jamais vu le jour sans les aides précieuses de nos sponsors. Ils nous fournissent en composants ou encore nous subventionnent. Cela nous permet d’acheter les outils et le matériel nécessaire à la réalisation du projet.
+Ce projet étudiant n’aurait jamais vu le jour sans les aides précieuses de nos sponsors. Ils nous fournissent en composants/matériel,  nous subventionnent ou nous conseillent. Cela nous permet d’acheter les outils et le matériel nécessaire à la réalisation du projet.
 
 
 
