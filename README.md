@@ -52,4 +52,30 @@ L'équipe a travailla sur la problématique des déchets. Elle s'est lancée sur
 
 Ce projet étudiant n’aurait jamais vu le jour sans les aides précieuses de nos sponsors. Ils nous fournissent en composants ou encore nous subventionnent. Cela nous permet d’acheter les outils et le matériel nécessaire à la réalisation du projet.
 
-[AI ISEN](https://www.aiisen.org/)
+
+
+## ![alt text](https://raw.githubusercontent.com/iRobotEam/Robot-Collecteur-dechets/master/Logo_Sponsors/AI_ISEN.png)  
+https://www.aiisen.org/
+
+
+
+## ![alt text](https://raw.githubusercontent.com/iRobotEam/Robot-Collecteur-dechets/master/Logo_Sponsors/Logo%20Kinematiq.png)
+https://www.kinematiq.net/
+
+## ![alt text](https://raw.githubusercontent.com/iRobotEam/Robot-Collecteur-dechets/master/Logo_Sponsors/LOGO%20asrvi.JPG) 
+https://www.mptruck.fr/distributeur/reparateur-loire-atlantique-44/asrvi-reparateur-carquefou-9443
+
+## ![alt text](https://raw.githubusercontent.com/iRobotEam/Robot-Collecteur-dechets/master/Logo_Sponsors/atlantic-batteries-sainte-luce-sur-loire-13909041820.png)
+http://atlantic-batteries.com/
+
+## ![alt text](https://raw.githubusercontent.com/iRobotEam/Robot-Collecteur-dechets/master/Logo_Sponsors/logo-accueil.png)
+https://www.axandus.fr/
+
+## ![alt text](https://raw.githubusercontent.com/iRobotEam/Robot-Collecteur-dechets/master/Logo_Sponsors/logo.jpg)
+https://www.novatics.com/
+
+
+## ![alt text](https://raw.githubusercontent.com/iRobotEam/Robot-Collecteur-dechets/master/Logo_Sponsors/1024px-Logo_SICK_AG_2009.svg.png)
+https://www.sick.com/fr/fr/
+
+
