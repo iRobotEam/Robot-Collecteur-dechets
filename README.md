@@ -19,7 +19,7 @@ L'équipe cherche à travailler sur la problématique des déchets. Étant débu
   Vous trouvererez toutes les pièces nécessaires à la modélisation 3D du bras du bras robotique. Toutes les pièces imprimables en 3D se trouvent ici. 
   
   ### Contrôle 
-  Vous trouverez un PDF excpliquant les recherches effectuées. Les pistes de réflexions, les echecs et les réussites. Le bras n'étant pas encore fonctionnel. Il toujours en pièces détachées, le PDF mentionnera le moment où nous nous sommes arètés. Nous vous donnons des pistes pour la suite.  
+  Vous trouverez un README excpliquant les recherches effectuées. Les pistes de réflexions, les echecs et les réussites. Le bras n'étant pas encore fonctionnel. Il toujours en pièces détachées, le README mentionnera le moment où nous nous sommes stopés . Nous vous donnons des pistes pour la suite.  
   Vous trouverez aussi la liste du matériel et outils utilisés avec des liens d'accès. 
   
   ### Equipe 
@@ -31,7 +31,7 @@ L'équipe cherche à travailler sur la problématique des déchets. Étant débu
   Vous trouvererez toutes les pièces nécessaires à la modélisation 3D du chpassis du robot. Toutes les pièces d'assemblage imprmables en 3D se trouvent ici.
   
   ### Contrôle 
-  Vous trouverez un PDF excpliquant les recherches effectuées. Les pistes de réflexions, les echecs et les réussites. Le châssis n'étant pas encore fonctionnel. Il toujours en pièces détachées, le PDF mentionnera le moment où nous nous sommes arètés. Nous vous donnons des pistes pour la suite.    
+  Vous trouverez un README excpliquant les recherches effectuées. Les pistes de réflexions, les echecs et les réussites. Le châssis n'étant pas encore fonctionnel. Il toujours en pièces détachées, le README mentionnera le moment où nous nous sommes arètés. Nous vous donnons des pistes pour la suite.    
   Vous trouverez aussi la liste du matériel et outils utilisés avec des liens d'accès. 
   
   ### Equipe 
@@ -40,7 +40,7 @@ L'équipe cherche à travailler sur la problématique des déchets. Étant débu
 ## 2) Détection des déchets  
 
   ### Recherches et réflexions 
-  Vous trouverez un PDF excpliquant les recherches effectuées. Les pistes de réflexions, les echecs et les réussites
+  Vous trouverez un README excpliquant les recherches effectuées. Les pistes de réflexions, les echecs et les réussites
   
   ### Contrôle  
   Vous trouverez  la liste du matériel et outils utilisés avec des liens d'accès. Le fonctionnemet technique de l'algorithme utilisé. Et des exemples de codes testés sur nos ordinateurs. 
