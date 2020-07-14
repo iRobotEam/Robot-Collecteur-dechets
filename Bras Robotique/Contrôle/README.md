@@ -65,7 +65,15 @@ Nous avons donc mofifié ces lignes de codes. Nous restions bloqués sur l'erreu
 
 
 
-Nous nous sommes arrêtés ici et avons cherchés d'autres approches. 
+Nous nous sommes arrêtés ici pour dynamixel et avons cherchés d'autres approches tel que des librairies python et des exmples. Mais nous n'avions pas le moindre servomoteur qui bougeait. 
+
+| Servomoteur   | Librairie | Exemple   |
+| :------------ |:--------- |:----------|
+| XL320         | [Python](https://pypi.org/project/pyxl320/)  | [GitHub](https://github.com/MultipedRobotics/pyxl320) |
+| XL430         | [Python](https://pypi.org/project/dynamixel-helper/)  | [GitHub](https://github.com/ryul1206/easy-dynamixel-helper) |
+
+
+##### Fin de l'approche Raspberry 
 
 ---
 ## Deuxième approche : ARDUINO 
