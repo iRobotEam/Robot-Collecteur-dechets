@@ -54,10 +54,16 @@ Nous avons le choix de lancer en python ou en C. Il faut ouvrir les examples et 
 > C'est l'ID du servomoteur à qui est envoyée l'information. 
 * **Baudrate** (0 à 7 = 9600 à 4,5M) initialisé à 1 (57600) par défaut.
 > C'est la vitesse de communication série. 
-* **Serial Port**  ttyS0 correspond à la sortie GPIO 15 et 14. ttuUSB0 correspond à la sortie USB. ttyAMA0 correspond  à une autre sortie et 14.
-> C'est le port de sorties pour la communication UART. 
+* **Serial Port**  ttyS0 correspond à la sortie GPIO 15 et 14. ttuUSB0 correspond à la sortie USB. ttyAMA0 correspond  à une autre sortie.
+> C'est le port de sortie pour la communication UART. 
 
-Nous avons donc mofifié ces lignes de codes. Nous restions bloqués sur cette erreur. 
+Nous avons donc mofifié ces lignes de codes. Nous restions bloqués sur l'erreur suivante. Aucune communication se réalisait. Aussi bien en python qu'en C.
+
+![alt text](https://raw.githubusercontent.com/iRobotEam/Robot-Collecteur-dechets/master/Bras%20Robotique/Contr%C3%B4le/erreur1_raspberry.png)
+
+>Le signal était pourtant bien délivré par la raspbérry et amplifié par le SN74LS241N. (en bas 3.3V ce qui sort de la raspberry , en haut TTL en 5V ce le fil des données pour le servomoteur) ![alt text]()
+
+
 
 ---
 ## Deuxième approche : ARDUINO 
