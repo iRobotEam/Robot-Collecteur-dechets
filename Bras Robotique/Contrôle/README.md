@@ -33,8 +33,8 @@ Cette approche n’est parvenue à aucun résultat, mais offre des possibilités
 Dans une premier temps nous avons testé de contrôler les servomoteurs 1 à 1. 
 
 #### Schéma de câblage :   
-![alt text](https://raw.githubusercontent.com/iRobotEam/Robot-Collecteur-dechets/master/Bras%20Robotique/Contr%C3%B4le/Shema_Raspberry.png)
-![alt text](https://raw.githubusercontent.com/iRobotEam/Robot-Collecteur-dechets/master/Bras%20Robotique/Contr%C3%B4le/Photo-Raspberry-cablage.jpg)
+![alt text](https://github.com/iRobotEam/Robot-Collecteur-dechets/blob/master/Bras%20Robotique/Contr%C3%B4le/Raspberry/Shema_Raspberry.png?raw=true)
+![alt text](https://github.com/iRobotEam/Robot-Collecteur-dechets/blob/master/Bras%20Robotique/Contr%C3%B4le/Raspberry/Photo-Raspberry-cablage.jpg?raw=true)
 
 > Source du harware : https://github.com/jeremiedecock/pyax12
 
@@ -59,11 +59,13 @@ Nous avons le choix de lancer en python ou en C. Il faut ouvrir les examples et 
 
 Nous avons donc mofifié ces lignes de codes. Nous restions bloqués sur l'erreur suivante. Aucune communication se réalisait. Aussi bien en python qu'en C.
 
-![alt text](https://raw.githubusercontent.com/iRobotEam/Robot-Collecteur-dechets/master/Bras%20Robotique/Contr%C3%B4le/erreur1_raspberry.png)
+![alt text](https://github.com/iRobotEam/Robot-Collecteur-dechets/blob/master/Bras%20Robotique/Contr%C3%B4le/Raspberry/erreur1_raspberry.png?raw=true)
 
->Le signal était pourtant bien délivré par la raspbérry et amplifié par le SN74LS241N. (en bas 3.3V ce qui sort de la raspberry , en haut TTL en 5V ce le fil des données pour le servomoteur) ![alt text]()
+>Le signal était pourtant bien délivré par la raspberry et amplifié par le SN74LS241N. (en bas 3.3V ce qui sort de la raspberry. En haut TTL en 5V , le fil des données entrantes dans le servomoteur) ![alt text](https://raw.githubusercontent.com/iRobotEam/Robot-Collecteur-dechets/master/Bras%20Robotique/Contr%C3%B4le/Raspberry/Mesure_data.jpg)
 
 
+
+Nous nous sommes arrêtés ici et avons cherchés d'autres approches. 
 
 ---
 ## Deuxième approche : ARDUINO 
