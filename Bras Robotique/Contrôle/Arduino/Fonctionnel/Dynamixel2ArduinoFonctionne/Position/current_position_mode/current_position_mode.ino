@@ -68,7 +68,7 @@ void loop() {
 
   // Set Goal Current 3.0% using percentage (-100.0 [%] ~ 100.0[%])
   //dxl.setGoalCurrent(DXL_ID, 3.0, UNIT_PERCENT);
-  dxl.setGoalPosition(DXL_ID, 0);
+  dxl.setGoalPosition(DXL_ID, 60);
 
   
   delay(5000);
