@@ -79,8 +79,35 @@ Nous nous sommes arrêtés ici pour dynamixel et avons cherchés d'autres approc
 ## Deuxième approche : ARDUINO 
 ![alt text](https://www.mon-club-elec.fr/mes_images/clipart/ArduinoLogo.gif)
 
+Arduino est la seule approche qui amena à un résultat. 
 
 
+### **Hardware** : 
+
+#### Liste du matériel utilisé   
+
+* Une Arduino uno ou méga 
+* Les [pièces](https://github.com/iRobotEam/Robot-Collecteur-dechets/tree/master/Bras%20Robotique/Modelisation) imprimées en 3D 
+* 3 servomoteurs [XL320](https://emanual.robotis.com/docs/en/dxl/x/xl320/)
+* 3 servomoteurs [XL430-W250](https://emanual.robotis.com/docs/en/dxl/x/xl430-w250/)
+* Un [régulateur de tension](https://www.generationrobots.com/fr/401456-module-convertisseur-de-tension-continue.html) 
+* Des cables / connecteurs 
+* Breadboard 
+* un [SN74LS241N](https://www.digikey.com/product-detail/en/texas-instruments/SN74LS241N/296-14887-5-ND/563034)  
+
+Dans une premier temps nous avons testé de contrôler les servomoteurs 1 à 1. 
+
+#### Schéma de câblage :   
+
+
+> Source du harware : 
+
+Pour le XL320 l'alimentation de 5V de la raspberry est suvisant. Pour le XL430 il est nécessaire d'y ajouter une **alimentation externe de 7.4V**
+
+
+### **Software** :
+
+Nous avons utilisé les exmemple de [Dynamixel2Arduino](https://github.com/ROBOTIS-GIT/Dynamixel2Arduino) pour faire tourner les servomoteurs. 
 
 
 ## Troisième approche DYNAMIXEL 
