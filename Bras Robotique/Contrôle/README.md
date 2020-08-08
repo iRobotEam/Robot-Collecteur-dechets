@@ -38,7 +38,7 @@ Dans une premier temps nous avons testé de contrôler les servomoteurs 1 à 1.
 
 > Source du harware : https://github.com/jeremiedecock/pyax12
 
-Pour le XL320 l'alimentation de 5V de la raspberry est suvisant. Pour le XL430 il est nécessaire d'y ajouter une **alimentation externe de 7.4V**
+Pour le XL320 l'alimentation de 5V de la raspberry est suvisant. Pour le XL430 il est nécessaire d'y ajouter une **alimentation externe de 11V**
 
 ### **Software** :  
 
@@ -95,19 +95,22 @@ Arduino est la seule approche qui amena à un résultat.
 * Breadboard 
 * un [SN74LS241N](https://www.digikey.com/product-detail/en/texas-instruments/SN74LS241N/296-14887-5-ND/563034)  
 
-Dans une premier temps nous avons testé de contrôler les servomoteurs 1 à 1. 
+Dans une premier temps nous avons testé de contrôler les servomoteurs un à un. 
 
-#### Schéma de câblage :   
+#### Schéma de câblage : 
+
+![alt text](C:\Users\edoui\Documents\Club Robotique\2019-2020\iRobot'Eam\GitHub\Robot-Collecteur-dechets\Bras Robotique\Contrôle\Arduino\Shéma_arduino.jpg)
+
 
 
 > Source du harware : 
 
-Pour le XL320 l'alimentation de 5V de la raspberry est suvisant. Pour le XL430 il est nécessaire d'y ajouter une **alimentation externe de 7.4V**
+Pour le XL320 l'alimentation de 5V de l'arduino est suvisant. Pour le XL430 il est nécessaire d'y ajouter une **alimentation externe de 11V**
 
 
 ### **Software** :
 
-Nous avons utilisé les exmemple de [Dynamixel2Arduino](https://github.com/ROBOTIS-GIT/Dynamixel2Arduino) pour faire tourner les servomoteurs. 
+Nous avons utilisé les exmemples de [Dynamixel2Arduino](https://github.com/ROBOTIS-GIT/Dynamixel2Arduino) pour faire tourner les servomoteurs. 
 
 
 ## Troisième approche DYNAMIXEL 
