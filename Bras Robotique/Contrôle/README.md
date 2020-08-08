@@ -101,6 +101,8 @@ Dans une premier temps nous avons testé de contrôler les servomoteurs un à un
 
 ![alt text](C:\Users\edoui\Documents\Club Robotique\2019-2020\iRobot'Eam\GitHub\Robot-Collecteur-dechets\Bras Robotique\Contrôle\Arduino\Shéma_arduino.jpg)
 
+Ce shéma est celui qui a permis d'obtenir [le résultat de ces vidéos](). 
+
 
 
 > Source du harware : 
