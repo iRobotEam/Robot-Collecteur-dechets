@@ -99,20 +99,38 @@ Dans une premier temps nous avons testé de contrôler les servomoteurs un à un
 
 #### Schéma de câblage : 
 
-![alt text](C:\Users\edoui\Documents\Club Robotique\2019-2020\iRobot'Eam\GitHub\Robot-Collecteur-dechets\Bras Robotique\Contrôle\Arduino\Shéma_arduino.jpg)
+![alt text](https://github.com/iRobotEam/Robot-Collecteur-dechets/blob/master/Bras%20Robotique/Contr%C3%B4le/Arduino/Sh%C3%A9ma_arduino.jpg?raw=true)
 
 Ce shéma est celui qui a permis d'obtenir [le résultat de ces vidéos](). 
 
 
-
-> Source du harware : 
 
 Pour le XL320 l'alimentation de 5V de l'arduino est suvisant. Pour le XL430 il est nécessaire d'y ajouter une **alimentation externe de 11V**
 
 
 ### **Software** :
 
-Nous avons utilisé les exmemples de [Dynamixel2Arduino](https://github.com/ROBOTIS-GIT/Dynamixel2Arduino) pour faire tourner les servomoteurs. 
+
+Il faut installer les librairies de Dynamixel2Arduino.h sur le logiciel Arduino. 
+
+Sur ce GitHub vous trouverez 3 dossiers de contenant les programmes testés sur les servomoteurs. 
+
+Un dossier [ControleAleatoire_XL320](https://github.com/iRobotEam/Robot-Collecteur-dechets/tree/master/Bras%20Robotique/Contr%C3%B4le/Arduino/Fonctionnel/ControleAleatoire_XL320/RandomControle) contient les programmes permetant de controler les servomoteurs XL320 dans des positions aléatoires, sans utiliser le SN74LS241N. En suivant exactement [ce gitHub](https://github.com/hackerspace-adelaide/XL320). 
+> Attention celui-ci ne fonctionne que pour le XL320 !! 
+
+Pour faire tourner tous les servomoteurs (XL320 + XL430) en même temps nous avons utilisé les exmemples de [Dynamixel2Arduino](https://github.com/ROBOTIS-GIT/Dynamixel2Arduino). Ils correspondent au dossier [Dynamixel2ArduinoFonctionne](https://github.com/iRobotEam/Robot-Collecteur-dechets/tree/master/Bras%20Robotique/Contr%C3%B4le/Arduino/Fonctionnel/Dynamixel2ArduinoFonctionne) sur ce gitHub. 
+Les étapes pour controler les 6 servomoteurs : 
+
+1-Utiliser le programme [scan_dynamixel.ino](https://github.com/iRobotEam/Robot-Collecteur-dechets/blob/master/Bras%20Robotique/Contr%C3%B4le/Arduino/Fonctionnel/Dynamixel2ArduinoFonctionne/scan_dynamixel/scan_dynamixel.ino) pour savoir l'ID et le Baudrate de notre servomoteur.
+
+2- Changer l'ID initalisé à 1 de base. En chiffre en 0 et 255 avec le programme [id.ino](https://github.com/iRobotEam/Robot-Collecteur-dechets/blob/master/Bras%20Robotique/Contr%C3%B4le/Arduino/Fonctionnel/Dynamixel2ArduinoFonctionne/id/id.ino).
+
+3- Changer la vitesse de communication avec [baudrate.ino](https://github.com/iRobotEam/Robot-Collecteur-dechets/tree/master/Bras%20Robotique/Contr%C3%B4le/Arduino/Fonctionnel/Dynamixel2ArduinoFonctionne/baudrate)
+
+4-Utiliser [ControlePlusMoteurs.ino](https://github.com/iRobotEam/Robot-Collecteur-dechets/blob/master/Bras%20Robotique/Contr%C3%B4le/Arduino/Fonctionnel/Dynamixel2ArduinoFonctionne/ControlePlusMoteurs/ControlePlusMoteurs/ControlePlusMoteurs.ino) pour donner des angles de rotation à plusieurs ID de moteurs différents 
+
+
+Voici les résultats obtenus avec Arduino : [Vidéo à télécharger](https://github.com/iRobotEam/Robot-Collecteur-dechets/tree/master/Bras%20Robotique/Contr%C3%B4le/Arduino/Vid%C3%A9o_controle_servomoteurs)
 
 
 ## Troisième approche DYNAMIXEL 
