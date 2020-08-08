@@ -138,5 +138,11 @@ Voici les résultats obtenus avec Arduino : [Vidéo à télécharger](https://gi
 ![alt text](https://tribotix.com/wp-content/uploads/2018/10/Robotis_2.png)
 
 
+Nous n'avons pas eu le temps d'explorer en profondeur cette aproche mais elle semble tres prometteuse. Elle nécessite cependant un investissement de budget. Elle permete notament d'utiliser des API tel que [dynamixeSDK](https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/overview/) sur du matériel spécifique [USB2DYNAMIXEL](https://emanual.robotis.com/docs/en/parts/interface/usb2dynamixel/) ou l'[U2D2](https://emanual.robotis.com/docs/en/parts/interface/u2d2/). 
+
+Ce matériel permettrait de contrôler plus facilement les servomoteurs en passant par des logiciels de controle graphique pour le paramètrage. [DynamixelWizard2.0](https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_wizard2/) ou encore [R+ Manager](https://emanual.robotis.com/docs/en/software/rplus2/manager/)
+
+Une approche a été effectuée avec la carte [OpenCM 9.04](https://emanual.robotis.com/docs/en/parts/controller/opencm904/) Mais sans succès. 
+
 
 
