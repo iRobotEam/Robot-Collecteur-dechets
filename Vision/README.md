@@ -2,7 +2,9 @@
 ## Recherches des différents frameworks existants :
 #### Darknet: Réseau de neurones Open Source en C avec YOLO: Détection d'objets en temps réel
 https://pjreddie.com/darknet/
+
 https://github.com/pjreddie/darknet
+
 langage de programmation : **C**
 
 | +/- | description |
@@ -13,7 +15,9 @@ langage de programmation : **C**
 
 #### Tensorflow: Bibliothèque de logiciels pour le flux de données et la programmation différenciée pour différentes tâches.
 https://www.tensorflow.org/
+
 https://github.com/tensorflow
+
 langage de programmation : **Python**
 
 | +/- | description |
